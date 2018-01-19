@@ -52,6 +52,9 @@
                                         <rect key="frame" x="188" y="1" width="92.666666666666686" height="120"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="25"/>
                                         <state key="normal" title="%"/>
+                                        <connections>
+                                            <action selector="percentagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DPx-G2-5me"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGJ-50-ygl">
                                         <rect key="frame" x="281.66666666666669" y="1" width="92.333333333333314" height="120"/>

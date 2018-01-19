@@ -71,6 +71,9 @@ class ViewController: UIViewController {
         }
         resultLabel.text! = String(sqrt(Double(resultLabel.text!)!))
     }
+    @IBAction func percentagePressed(_ sender: UIButton) {
+        resultLabel.text! = String(Double(resultLabel.text!)! / 100)
+    }
     
     func equality (){
         switch operationSign {
